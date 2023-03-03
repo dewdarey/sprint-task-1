@@ -5,8 +5,16 @@
 
 header {
 	background: #84000f;
-	display: flex;
+	display: inline-flex;
 	padding: 20px;
+}
+
+header .menu {
+	margin-left: 1390px;
+}
+
+header .menu>a {
+	margin-left: 20px;
 }
 
 body {
@@ -48,19 +56,33 @@ body {
 
 h5 {
 	font-size: 18px;
+	margin: 0;
 }
 
 .last_new {
-	width: 20%;
-	margin-right: 113px;
+	width: 25%;
+	margin-right: 50px;
+	border: 1px solid #ccc;
 }
 
-.last_new > p {
-
+.last_new:last-child {
+	margin: 0;
 }
 
-.last_new > a {
+.last_new img {
+	width: 100%;
+}
+
+.last_new p {
+	margin: 0;
+}
+
+.last_new a {
 	background: #84000f;
 	color: #fff;
 	padding: 5px;
+}
+
+.textbox {
+	margin: 20px;
 }
